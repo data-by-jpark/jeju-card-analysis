@@ -1,3 +1,7 @@
-# data/*.csv
+# Ignore all CSV files in the data folder
+data/*.csv
+
+# Ignore specific folders
 .ipynb_checkpoints/
 __pycache__/
+.DS_Store
